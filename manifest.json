@@ -1,0 +1,12 @@
+{
+    "name": "Muda fonte do Whatsapp",
+    "description": "Vai mudar a fonte do Whatsapp Web assim que entrar no site",
+    "author": "Brian Matheus",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [{
+        "matches": ["https://web.whatsapp.com/"],
+        "css": ["style.css"],
+        "js": ["content.js"]
+    }]
+}
